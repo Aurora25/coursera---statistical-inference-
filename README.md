@@ -1,7 +1,7 @@
 # coursera-statistical-inference
 Course Project for the statistical inference course from the coursera data science specialization
 
-Note: The following has been copied from the Course Project Instruction Website (December 2015) and are the project instructions provided by the course instructors. It has been slightly modified to fit the format of the original instructions.
+Note: The following has been copied from the Course Project Instruction Website (December 2015). It contains the project instructions provided by the course instructors. It has been slightly modified to reproduce the format of the original instructions on the website.
 
 This is the project for the statistical inference class. In it, you will use simulation to explore inference and do some simple inferential data analysis. The project consists of two parts:
 
