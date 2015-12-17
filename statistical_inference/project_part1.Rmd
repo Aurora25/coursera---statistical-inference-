@@ -17,7 +17,7 @@ This document demonstrates the validity and limitations of the Central Limit The
 Lets start with the properties of the exponential distribuion. We know it has the properties
 $$\begin{array}{lcr}E[X] = \frac{1}{\lambda}, & 
 Var(X) = \frac{1}{\lambda^2} &
-\Rightarrow \sigma = \frac{1}{\sqrt{\lambda}}.
+\Rightarrow \sigma = \frac{1}{\lambda}.
 \end{array}$$ 
 For the following simulation and comparison let $\lambda=0.2$.
 
@@ -30,7 +30,7 @@ These have the values `r sprintf("E_exp = %s", E_exp)` and `r sprintf("sd_exp = 
 
 Let $\bar X = \frac{\sum_{i=1}^{40} X_i}{40}$ be a random variable of the distribution of 40 exponentials, with $X_i \sim Exp(\lambda), \; i \in \{1, \dots, 40\}$. And then calculate the standard deviation, variance and expected value for the distribution of averages of n exponentials with the Central Limit Theorem, which provides the following formulas  
 $$\begin{array}{lcr}E[\bar X] = \frac{1}{\lambda}, &
-\sqrt{Var(\bar X)} = \sigma = \frac{ \frac{1}{\lambda^2}}{n} = \frac{1}{\lambda^2\cdot n}
+\sqrt{Var(\bar X)} = \sigma_{\bar X} = \frac{ \frac{1}{\lambda^2}}{n} = \frac{1}{\lambda^2\cdot n}
 \end{array}$$ 
 Apply it to our distribution of averages of 40 exponentials and save $E[\bar X], Var(\bar X)$ and $\sigma = \sqrt{Var(\bar X)}$ in R
 ```{r}
